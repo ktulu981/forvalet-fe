@@ -14269,8 +14269,12 @@ body{
   margin-top: 0!important;
   overflow-y: hidden !important;
 }
-::ng-deep ngb-modal-backdrop {
+/* Tema (BS4) .modal'i 1050'ye cekiyor; pencere backdrop'un ustunde kalmali. */
+ngb-modal-backdrop {
   z-index: 1050 !important;
+}
+ngb-modal-window {
+  z-index: 1055 !important;
 }
 :host ::ng-deep .ngb-dp-header {
   background-color: var(--light) !important;
