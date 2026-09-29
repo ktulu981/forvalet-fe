@@ -12002,7 +12002,7 @@ __webpack_require__.r(__webpack_exports__);
 // If left as is, it firbase and google map related functionality will not work on LIVE instance.
 const environment = {
   production: false,
-  apiUrl: 'https://localhost:7250/api/',
+  apiUrl: 'https://forvalet.com/api/',
   url: 'http://localhost:45949/',
   firebase: {
     apiKey: 'AIzaSyCSG-EGU2RLITgpjf_ogf1w47edC_DXlWc',
