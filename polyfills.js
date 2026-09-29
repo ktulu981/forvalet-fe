@@ -5602,7 +5602,7 @@ module.exports = getBuiltIn('document', 'documentElement');
 
 /***/ }),
 
-/***/ 92531:
+/***/ 5873:
 /*!**********************************************************!*\
   !*** ./node_modules/core-js/internals/ie8-dom-define.js ***!
   \**********************************************************/
@@ -6177,7 +6177,7 @@ exports.f = DESCRIPTORS && !V8_PROTOTYPE_DEFINE_BUG ? Object.defineProperties : 
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ 45601);
-var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ 92531);
+var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ 5873);
 var V8_PROTOTYPE_DEFINE_BUG = __webpack_require__(/*! ../internals/v8-prototype-define-bug */ 50401);
 var anObject = __webpack_require__(/*! ../internals/an-object */ 16583);
 var toPropertyKey = __webpack_require__(/*! ../internals/to-property-key */ 12637);
@@ -6236,7 +6236,7 @@ var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-prope
 var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ 88436);
 var toPropertyKey = __webpack_require__(/*! ../internals/to-property-key */ 12637);
 var hasOwn = __webpack_require__(/*! ../internals/has-own-property */ 8578);
-var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ 92531);
+var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ 5873);
 
 // eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
 var $getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
